@@ -9,11 +9,7 @@
                 "-g",
                 "${workspaceFolder}\\src\\*.cpp",
                 "-o",
-<<<<<<< HEAD
                 "${workspaceFolder}\\obj\\Tarea3_parte2.exe"
-=======
-                "${workspaceFolder}\\obj\\Tarea3_parte1.exe"
->>>>>>> 51464e07a77bbd23163822a27bf484d747a93bce
             ],
             "options": {
                 "cwd": "${fileDirname}"

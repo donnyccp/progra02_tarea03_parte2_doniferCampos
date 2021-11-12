@@ -54,12 +54,8 @@
         "ctime": "cpp",
         "set": "cpp",
         "cinttypes": "cpp",
-<<<<<<< HEAD
-        "variant": "cpp"
-=======
         "variant": "cpp",
         "cstring": "cpp"
->>>>>>> 51464e07a77bbd23163822a27bf484d747a93bce
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [

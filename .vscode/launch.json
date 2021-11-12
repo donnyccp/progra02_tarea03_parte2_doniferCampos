@@ -8,11 +8,7 @@
             "name": "g++ - Debug program",
             "type": "cppdbg",
             "request": "launch",
-<<<<<<< HEAD
             "program": "${workspaceFolder}\\obj\\Tarea3_parte2.exe",
-=======
-            "program": "${workspaceFolder}\\obj\\Tarea3_parte1.exe",
->>>>>>> 51464e07a77bbd23163822a27bf484d747a93bce
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
