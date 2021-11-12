@@ -12,10 +12,10 @@ int main()
     LectorDeBinario lector1("personas.dat", 4);
 
     //Indicar nombre de libro y persona a buscar
-    //LectorDeBinario lector2("personas.dat", 25);
+    LectorDeBinario lector2("personas.dat", 25);
 
     //Indicar nombre de libro y persona a buscar
-    LectorDeBinario lector3("personitas.dat", 0);
+    //LectorDeBinario lector3("personitas.dat", 0);
 
     return 0;
 }
