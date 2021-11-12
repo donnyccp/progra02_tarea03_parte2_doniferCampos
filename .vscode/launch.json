@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "g++ - Debug program",
+            "type": "cppdbg",
+            "request": "launch",
+<<<<<<< HEAD
+            "program": "${workspaceFolder}\\obj\\Tarea3_parte2.exe",
+=======
+            "program": "${workspaceFolder}\\obj\\Tarea3_parte1.exe",
+>>>>>>> 51464e07a77bbd23163822a27bf484d747a93bce
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "internalConsole",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "preLaunchTask": "C/C++: g++ build files"
+        },
+        {
+            "name": "g++ - Debug tests",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\obj\\tests.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "internalConsole",
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+            "preLaunchTask": "C/C++: g++ run tests"
+        }
+    ]
+}
