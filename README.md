@@ -3,7 +3,7 @@
 Programación 02- Tarea 3_Parte2-Donifer Campos Parra <br />
 Programado en Windows10- Visual Studio Code 1.62.1 <br />
 mkdir obj <br />
-g++ -std=c++17 -stdlib=libc++ -g ./src/*.cpp -o ./obj/tarea1 <br /> 
+g++ -std=c++17 -stdlib=libc++ -g ./src/*.cpp -o ./obj/tarea3 <br /> 
 
 
 Segunda aplicación lee de un archivo binario personas.dat y
