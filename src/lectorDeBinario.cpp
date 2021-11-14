@@ -11,6 +11,11 @@
 #include "./excepciones/excepcionNoSePudoAbrirArchivoBinario.h"
 
 using namespace std;
+LectorDeBinario::LectorDeBinario(){
+
+//Constructor vacio
+
+}
 
 LectorDeBinario::LectorDeBinario(string nombreDeArchivoBinario, int idPersonaABuscar)
 
@@ -30,7 +35,7 @@ ifstream LectorDeBinario::AbrirArchivo(string nombreDeArchivo)
      if (!archivoEntrada.is_open())
      {
 
-          throw new ExcepcionNoSePudoAbrirArchivoBinario();
+          throw ExcepcionNoSePudoAbrirArchivoBinario();
      }
 
      return archivoEntrada;

@@ -10,7 +10,7 @@ class ExcepcionNoSePudoAbrirArchivoBinario : public std::exception
     ~ExcepcionNoSePudoAbrirArchivoBinario() = default;
 
     virtual const char* what() const noexcept {
-        return "No se puede abrir archivo Binario";
+        return "No se puede abrir el archivo, revise la ubicacion del archivo o su nombre ";
     }
 
 };

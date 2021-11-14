@@ -82,5 +82,6 @@
     "gtest-adapter.debugConfig": [
         "g++ - Debug program"
     ],
-    "gtest-adapter.supportLocation": false
+    "gtest-adapter.supportLocation": false,
+    "C_Cpp.errorSquiggles": "Enabled"
 }
