@@ -24,6 +24,6 @@ Para que este programa se ejecute eficazmente es necesario que siga los siguient
 &nbsp;&nbsp;&nbsp;3- La ubicación del archivo binario debe ser correcta asi como el nombre de este<br />
 
  Este programa cuenta con 3 clases. La clase principal main gestiona la instancia a la clase lectorDeBinario. La clase lectorDeBinario gestiona la lectura de un archivo binario con el nombre de "personas.dat" que contiene los datos de id, nombre, apellido y correo de cada persona (libro), para ello realiza una instancia a la clase libro. La clase libro gestiona los datos de las personas en un arreglo de caracteres denominado libro. <br />
- Para comprobar el correcto funcionamiento del programa y sus metodos este programa cuenta con pruebas unitarias que se ejecutan usando GoogleTets, tome las previsiones necasarias para ejecuatar las pruebas, mas informacion en https://google.github.io/googletest/.<br />
+ Para comprobar el correcto funcionamiento del programa y sus metodos este programa cuenta con pruebas unitarias que se ejecutan usando GoogleTests, tome las previsiones necasarias para ejecuatar las pruebas, mas informacion en https://google.github.io/googletest/.<br />
 
 Al final de la ejecución se informa en la terminal los datos de la persona encontrada. <br />
